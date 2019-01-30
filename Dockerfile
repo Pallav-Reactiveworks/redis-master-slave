@@ -20,7 +20,7 @@ RUN chmod +x redis-slave.sh
 
 COPy ./main-script.sh main-script.sh
 RUN chmod +x main-script.sh
-#CMD ["/bin/bash", "/home/ubuntu/redis-5.0.3/src/main-script.sh"]
+CMD ["/bin/bash", "/home/ubuntu/redis-5.0.3/src/main-script.sh"]
 
 #ENTRYPOINT ["sudo", "-E", "/bin/bash", "-c", "./main-script.sh"]
 
