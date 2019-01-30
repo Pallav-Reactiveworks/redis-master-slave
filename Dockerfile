@@ -1,5 +1,5 @@
 from ubuntu:latest
-LABEL maintainer="pallav ladekar"
+LABEL maintainer="pallava ladekar"
 RUN apt-get update -y && apt-get install wget -y && apt-get install net-tools -y
 WORKDIR /home/ubuntu
 
