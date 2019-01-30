@@ -3,8 +3,8 @@
 #!/bin/bash
 mode="protected-mode no"
 sed -i '/protected-mode yes/c\'"$mode"  /home/ubuntu/redis-5.0.3/redis.conf
-
-ip="172.17.0.2"
+ip=$master_ip
+#ip="172.17.0.2"
 port="6379"
 # replicaof <masterip> <masterport>
 
