@@ -1,5 +1,5 @@
 # redis-master-slave
-Clone the repository
+Clone the repository,
 build docker image using command  docker build -t image-name .
 
 Now frist run Docker-container for   Redis-master
